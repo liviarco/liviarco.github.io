@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<title>Contact</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="portfolio.css">
+		<link rel="stylesheet" type="text/css" href="jquery-ui.css">
+
+	</head>
+
+
+	<body>
+		<div id="wrapper">
+			<header>
+				<a href="index.html">
+					<img class="left" src="logo.png" alt="jujubs">
+				</a>
+				
+				<nav>
+					<ul class="right">
+						<li class="home"><a href="index.html">Home</a></li>
+						<li class="about"><a href="about.html">About</a></li>
+						<li class="works"><a href="works.html">Works</a></li>
+						<li class="contact"><a href="contato.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			
+			
+		<!-- INÍCIO DO FORMULÁRIO  -->
+			
+			<form name="message" method="post" class="center">
+
+					
+			    <section>
+
+				    <div class="name">
+				        <label for="name">Nome:</label>
+				        <input id="name" type="text" value="" name="name">
+				    </div>
+
+				    <div class="lastname">
+						<label for="lastname">Sobrenome:</label>
+				        <input id="lastname" type="text" value="" name="lastname">
+				    </div>
+
+				</section>
+
+			    <section>
+
+				    <label for="email">E-mail:</label>
+				    <input id="email" type="email" value="" name="email">
+						
+				    <label for="subject">Assunto:</label>
+				    <input id="subject" type="text" value="" name="subject">
+						
+				    <label for="message">Mensagem:</label>
+				    <input id="message" type="text" value="" name="message">
+
+					<!-- <input id="opener" type="submit"> -->
+					 <div id="opener" class="button"><a class="button">Enviar</a></div>
+
+
+				</section>
+
+			</form>	
+			
+			<!-- FIM DO FORMULÁRIO  -->
+			<div id="dialog" title="Obrigada!">
+			  <p>Sua mensagem foi enviada!</p>
+			</div>
+
+	 	</div>
+	</body>
+		<script src="jquery-3.3.1.min.js"></script>	
+	<!-- 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+		<script type="text/javascript" src="jquery-ui.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+</html>
+
